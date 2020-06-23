@@ -10,6 +10,10 @@ import smilyk.actuator.services.jms.JmsTextMessageService;
 
 import java.util.List;
 
+/**
+ * отслеживаем сколько раз продукты полуяались через этот сервис
+ *
+ */
 @Service
 public class ProductServiceImpl implements ProductService {
 
