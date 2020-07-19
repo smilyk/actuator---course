@@ -2,10 +2,7 @@
 
 [![Build Status](https://travis-ci.com/smilyk/actuator---course.svg)](https://travis-ci.com/smilyk/actuator---course)
 
-[![docker build](https://img.shields.io/docker/build/smilyk/actuator---course)](https://img.shields.io/docker/build/smilyk/actuator---course)
-[![docker build](https://img.shields.io/docker/build/smilyk/actuator)](https://img.shields.io/docker/build/smilyk/actuator)
-[![docker build](https://img.shields.io/docker/build/smilyk/actuator-course)](https://img.shields.io/docker/build/smilyk/actuator-course)
-
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/smilyk/actuator)
 
 [![codecov](https://codecov.io/gh/smilyk/actuator---course/branch/master/graph/badge.svg)](https://codecov.io/gh/smilyk/actuator---course)
 
