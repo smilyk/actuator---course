@@ -9,6 +9,7 @@
 
 [![codecov](https://codecov.io/gh/smilyk/actuator---course/branch/master/graph/badge.svg)](https://codecov.io/gh/smilyk/actuator---course)
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=smilyk_actuator---course&metric=alert_status)](https://sonarcloud.io/dashboard?id=smilyk_actuator---course)
 
 = !!! = !!! = !!! = !!! = !!! = !!! = !!!
 
