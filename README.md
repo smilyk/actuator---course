@@ -1,6 +1,6 @@
 # actuator---course
 
-[![Build Status](https://travis-ci.com/smilyk/actuator---course.svg)](https://travis-ci.com/FanJups/cicd-applied-to-spring-boot-java-app)
+[![Build Status](https://travis-ci.com/smilyk/actuator---course.svg)](https://travis-ci.com/smilyk/actuator---course)
 
 
 
