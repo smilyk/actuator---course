@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/smilyk/actuator---course.svg)](https://travis-ci.com/smilyk/actuator---course)
 
-![Docker Build Status](https://img.shields.io/docker/build/smilyk/actuator-course)
+![Docker Build Status](https://img.shields.io/docker/build/smilyk/actuator---course)
 ![Docker Build Status](https://img.shields.io/docker/build/smilyk/actuator)
 
 
