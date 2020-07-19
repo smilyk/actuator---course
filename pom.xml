@@ -21,7 +21,25 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
-	</properties>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+	<!-- property useful for  spotify's dockerfile-maven-plugin -->
+
+	<!-- Instead of "fanjups", please add your Docker Hub username -->
+
+	<docker.image.prefix>smilyk</docker.image.prefix>
+
+	<!--Not adding artifacts to remote repository-->
+
+	<maven.deploy.skip>true</maven.deploy.skip>
+
+
+
+	<!-- Useful for Heroku Deployment -->
+
+	<full-artifact-name>target/${project.artifactId}-${project.version}.jar</full-artifact-name>
+
+</properties>
 
 	<dependencies>
 
@@ -91,7 +109,60 @@
 				<groupId>pl.project13.maven</groupId>
 				<artifactId>git-commit-id-plugin</artifactId>
 			</plugin>
+			<plugin>
+				<groupId>com.spotify</groupId>
+				<artifactId>dockerfile-maven-plugin</artifactId>
+				<version>1.4.9</version>
+				<executions>
+					<execution>
+						<id>default</id>
+						<phase>install</phase>
+						<goals>
+							<goal>build</goal>
+							<goal>push</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<repository>${docker.image.prefix}/${project.artifactId}</repository>
+
+
+				</configuration>
+			</plugin>
+
 		</plugins>
 	</build>
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>http://www.opensource.org/licenses/mit-license.php</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
 
+	<developers>
+		<developer>
+			<email>smilyk1982@gmail.com</email>
+			<name>smilyk</name>
+			<url>https://github.com/smilyk</url>
+			<id>smilyk</id>
+		</developer>
+
+	</developers>
+
+	<organization>
+		<name>smilyk</name>
+		<url>https://github.com/smilyk/</url>
+	</organization>
+
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/smilyk/actuator---courses/issues</url>
+	</issueManagement>
+
+	<scm>
+		<url>https://github.com/smilyk/actuator---courses/issues</url>
+		<connection>scm:git:git://https://github.com/smilyk/actuator---courses/issues</connection>
+		<developerConnection>scm:git:git://https://github.com/smilyk/actuator---courses/issues</developerConnection>
+	</scm>
 </project>
