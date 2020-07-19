@@ -6,6 +6,12 @@
 
 [![codecov](https://codecov.io/gh/smilyk/actuator---course/branch/master/graph/badge.svg)](https://codecov.io/gh/smilyk/actuator---course)
 
+[![codecov](https://codecov.io/gh/smilyk/actuator---course/branch/master/graph/badge.svg)](https://codecov.io/gh/smilyk/actuator---course)
+
+<a href="https://codecov.io/gh/smilyk/actuator---course">
+  <img src="https://codecov.io/gh/smilyk/actuator---course/branch/master/graph/badge.svg" />
+</a>
+
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=smilyk_actuator---course&metric=alert_status)](https://sonarcloud.io/dashboard?id=smilyk_actuator---course)
 
 = !!! = !!! = !!! = !!! = !!! = !!! = !!!
